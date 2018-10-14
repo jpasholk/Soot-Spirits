@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Trying to fix these damn pagination buttons on mobile*/
 @media screen and (max-width: 768px) {
   .pagination {
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
   .pagination-list {
     font-size: 0%;
