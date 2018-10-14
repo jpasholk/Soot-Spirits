@@ -13,6 +13,22 @@ You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll 
 
 ## Here is a secondary heading
 
+Here is an ordered list:
+
+1. one
+
+2. two
+
+3. three
+
+An unordered list:
+
+* one
+
+* two
+
+* three
+
 Here's a useless table:
 
 | Number | Next number | Previous number |

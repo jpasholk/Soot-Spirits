@@ -109,15 +109,14 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
-@media screen and (max-width: 768px)
-bulma.css:4115.pagination {
-flex-wrap: nowrap;
+/* Trying to fix these damn pagination buttons on mobile*/
+@media screen and (max-width: 768px) {
+  .pagination {
+        flex-wrap: nowrap;
+  }
+  .pagination-list {
+    margin-top: 0.75rem;
+    margin-bottom: .75rem;
+    padding: 2px;
 }
-@media screen and (max-width: 768px)
-bulma.css:4131.pagination-list {
-margin-top: 0.75rem;
-margin-bottom: .75rem;
-padding: 2px;
-}
-
 /* ~ jpasholk */
